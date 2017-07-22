@@ -1,0 +1,10 @@
+{
+ "frameworks": {
+   "net46":{
+     "dependencies": {
+       "Newtonsoft.Json": "10.0.3",
+       "linqtotwitter": "4.1.0"
+     }
+   }
+ }
+}

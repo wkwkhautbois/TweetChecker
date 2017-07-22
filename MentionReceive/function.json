@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "route": "mention/"
+    },
+    {
+      "type": "table",
+      "name": "inputUserTable",
+      "tableName": "Data",
+      "take": "20",
+      "connection": "****************_STORAGE", // Azure Storage
+      "direction": "in"
+    },
+    {
+      "type": "table",
+      "name": "outputUserTable",
+      "tableName": "Data",
+      "connection": "****************_STORAGE",// Azure Storage
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
